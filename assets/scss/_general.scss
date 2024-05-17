@@ -1,0 +1,137 @@
+/*** site general styles ****/
+body {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+img {
+    max-width: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+/*** buttons styles ***/
+.btn {
+    -webkit-appearance: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 16px;
+    padding: 12px 24px;
+    text-align: center;
+
+    transition: all .3s ease;
+
+    &:hover {
+
+        transform: scale(1.1);
+    }
+
+    &-success {
+        border: 0;
+        background-color: $light-green;
+        color: $blue;
+
+        &:hover {
+            background-color: #badcd3;
+            color: $blue;
+        }
+    }
+
+    &-primary {
+        border: 0;
+        background-color: $blue;
+
+        &:hover {
+            background-color: $light-blue;
+        }
+    }
+
+    &-white {
+        background: #fff;
+        color: $blue;
+
+        &:hover {
+            background-color: $light-green;
+            color: #fff;
+        }
+    }
+    &-outline-white{
+        border:1px solid #989da9;
+        color: #fff;
+        &:hover{
+            background-color: #989da9;
+        border: 1px solid #989da9;
+        color: #fff;
+        }
+    }
+}
+
+/*** font sizes and weight styles ****/
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.BH {
+    &-small-title {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    &-title {
+        font-size: 40px;
+        line-height: 100%;
+        font-weight: 500;
+    }
+
+    &-big-title {
+        font-size: 50px;
+        line-height: 120%;
+        font-weight: 500;
+    }
+}
+
+/**** texts style *****/
+.text {
+    &-light-green {
+        color: $light-green;
+    }
+
+    &-small {
+        font-size: 14px;
+        line-height: 124%;
+    }
+
+    &-big {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    &-medium{
+        font-weight: 500;
+    }
+}
+
+/*** background styles ****/
+.bg {
+    &-blue {
+        background: $blue;
+    }
+
+    &-light-blue {
+        background: $light-blue;
+    }
+}
